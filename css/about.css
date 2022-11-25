@@ -433,6 +433,12 @@ hr {
     padding-left: 69px;
   }
 
+  .foto p {
+    padding-left: 68px;
+    padding-right: 68px;
+    font-size: 26px;
+  }
+
 }
 
 @media (max-width: 1000px) {
@@ -522,6 +528,7 @@ hr {
   .foto p {
     padding-left: 70px;
     padding-right: 70px;
+    font-size: 20px;
   }
 
 }
@@ -620,8 +627,8 @@ hr {
 
   .foto p {
     font-size: 15px;
-    padding-left: 35px;
     padding-left: 25px;
+    font-size: 20px;
   }
 
 }
