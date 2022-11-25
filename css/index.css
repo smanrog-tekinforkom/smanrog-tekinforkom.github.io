@@ -425,7 +425,12 @@ hr {
   }
 
   .foto {
-    width: 1250px;
+    width: 130vh;
+  }
+
+  .foto h1 {
+    font-size: 50px;
+    padding-left: 69px;
   }
 
 }
@@ -512,6 +517,11 @@ hr {
 
   .foto {
     width: 800px;
+  }
+
+  .foto p {
+    padding-left: 70px;
+    padding-right: 70px;
   }
 
 }
@@ -606,6 +616,13 @@ hr {
 
   .foto img {
     width: 200px;
+  }
+
+  .foto p {
+    font-size: 15px;
+    padding-left: 35px;
+    text-align: left;
+    padding-left: 25px;
   }
 
 }
