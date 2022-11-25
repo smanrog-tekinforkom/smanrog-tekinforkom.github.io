@@ -1,0 +1,657 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} 
+
+body {
+  background: white;
+}
+
+hr {
+  border: none;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.20);
+}
+
+.blank {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 9999;
+  font-size: 0px;
+}
+
+.blank:target {
+  bottom: 0;
+  right: 0;
+  animation: fade 1s;
+}
+
+.blank:target h1 {
+  position: absolute;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  padding: 0 30px;
+  transform: translate(-50%, -50%);
+}
+
+.blank:target h5 {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  top: 60%;
+  left: 50%;
+  width: 100%;
+  padding: 0 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transform: translate(-50%, -50%);
+  background: black;
+  width: auto;
+  border-radius: 20px;
+}
+
+.blank2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 9299;
+  font-size: 0px;
+}
+
+.blank2:target {
+  bottom: 0;
+  right: 0;
+  animation: fade 1s;
+}
+
+.blank2:target h1 {
+  position: absolute;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  padding: 0 30px;
+  transform: translate(-50%, -50%);
+}
+
+.blank2:target h5 {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  top: 60%;
+  left: 50%;
+  width: 100%;
+  padding: 0 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transform: translate(-50%, -50%);
+  background: black;
+  width: auto;
+  border-radius: 20px;
+}
+
+.blank3 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 9929;
+  font-size: 0px;
+}
+
+.blank3:target {
+  bottom: 0;
+  right: 0;
+  animation: fade 1s;
+}
+
+.blank3:target h1 {
+  position: absolute;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  padding: 0 30px;
+  transform: translate(-50%, -50%);
+}
+
+.blank3:target h5 {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  top: 60%;
+  left: 50%;
+  width: 100%;
+  padding: 0 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transform: translate(-50%, -50%);
+  background: black;
+  width: auto;
+  border-radius: 20px;
+}
+
+
+
+/******** content align / css  ********/
+
+.home-content {
+  z-index: 1;
+  padding: 30px;
+}
+
+.container-bar {
+  margin: auto;
+  width: 130vh;
+ /* justify-content: center;*/
+  text-align: center;
+}
+
+.container-bar a {
+  text-decoration: none;
+  color: black;
+}
+
+.container-bar span {
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom: 10px solid red;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 12%);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+}
+
+
+.container-content {
+  border-bottom: 10px solid red;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 130vh;
+  margin: auto;
+  accent-color: red;
+  -moz-border-radius: 20px; 
+  -webkit-border-radius: 20px; 
+  border-top: 20px solid #2288dd; 
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.container-content h1 {
+  text-align: left;
+  padding-top: 20px;
+}
+
+.container-content img {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+
+.container-content h4 {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: black;
+  width: 80px;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+.container-content a { 
+  font-weight: 700;
+  text-decoration: none;
+} 
+
+.container-content span { 
+  font-weight: 700;
+  text-decoration: none;
+} 
+
+.container-content p {
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+
+.container-contentlevel {
+  margin: auto;
+  padding-top: 10px;
+  width: 400px;
+  padding-bottom: 10px;
+}
+
+.container-contentlevel fieldset {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  
+}
+
+.container-contentlevel fieldset h1 {
+  font-size: 20px;
+}
+
+.container-contentlevel progress {
+  block-size: 1.3em;
+  width: 100px;
+}
+
+.container-contentlevel label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding-bottom: 20px;
+}
+
+.foto {
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 20px;
+  width: 800px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.foto img {
+  image-rendering: optimizeSpeed;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+
+.foto h1 {
+  font-size: 40px;
+  padding-left: 50px;
+}
+
+.foto h2 {
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: black;
+  color: white;
+  max-width: fit-content;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.foto hr {
+  padding-top: 10px;
+}
+
+.foto a {
+  text-decoration: none;
+  color: white;
+}
+
+.foto h4 {
+  margin: auto;
+  font-size: 20px;
+  max-width: fit-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+}
+
+.foto p {
+  font-size: 20px;
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+/***** responsive komputer ******/
+
+@media (max-width: 2000px) {
+  .container-bar {
+     width: 130vh;
+  }
+
+  .container-bar span {
+    font-size: 40px;
+  }
+  
+  .container-content {
+    padding-top: 20px;
+    border-top: 10px solid #2288dd;
+     width: 130vh;
+     padding-top: 30px;
+     margin-top: 20px;
+  }
+  
+  .container-content img {
+     width: 35%;
+     animation-name: fade;
+     animation-duration: 2s;
+  }
+  
+  .container-content h1 {
+    padding-left: 50px;
+    font-size: 60px;
+  }
+  
+  .container-content h4 {
+  	
+     font-size: 20px;
+     width: 190px;
+     border-radius: 50px;
+     margin-left: 55px;
+  
+  }
+  
+  .container-content a { 
+    font-weight: 700;
+    text-decoration: none;
+  } 
+
+  .container-content p {
+     padding-left: 60px;
+     padding-right: 60px;
+     padding-top: 25px;
+     padding-bottom: 40px;
+     font-size: 26px;
+     animation-name: fade;
+     animation-duration: 2s;
+  }
+  
+  .container-contentlevel {
+     width: 130vh;
+  }
+
+  .container-contentlevel fieldset h1  {
+    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 69px;
+  }
+  
+  .container-contentlevel progress {
+    block-size: 1.0em;
+    width: 200px;
+  }
+
+  .container-contentlevel label {
+    font-size: 30px;
+    gap: 1rem;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .foto h1 {
+    padding-left: 70px;
+    font-size: 50px;
+  }
+
+  .foto {
+    width: 130vh;
+  }
+
+}
+
+@media (max-width: 1000px) {
+
+  
+  .container-bar {
+     width: 800px;
+     height: 50px;
+  }
+
+  .container-bar span {
+    font-size: 30px;
+  }
+  
+  
+  .container-content {
+     width: 800px;
+     padding-top: 20px;
+     -moz-border-radius: 30px; 
+     -webkit-border-radius: 30px; 
+	   border-top: 5px solid #2288dd; 
+     border-radius: 20px;
+     padding: 10px;
+  }
+  
+  .container-content img {
+     width: 35%;
+     animation-name: fade;
+     animation-duration: 2s;
+  }
+  
+  .container-content h1 {
+    padding-left: 40px;
+    font-size: 45px;
+    padding-top: 40px;
+  }
+  
+  .container-content h4 {
+  	
+     font-size: 20px;
+     width: 150px;
+     border-radius: 50px;
+     margin-left: 40px;
+  
+  }
+  
+  .container-content a { 
+    font-weight: 700;
+    text-decoration: none;
+  } 
+
+  .container-content p {
+     padding-left: 40px;
+     padding-right: 40px;
+     padding-top: 25px;
+     padding-bottom: 40px;
+     font-size: 20px;
+     animation-name: fade;
+     animation-duration: 2s;
+  }
+  
+  .container-contentlevel {
+     width: 800px;
+  }
+
+  .container-contentlevel fieldset h1 {
+    font-size: 40px;
+    padding-left: 50px;
+  }
+  
+  .container-contentlevel progress {
+    block-size: 1em;
+    width: 170px;
+  }
+
+  .container-contentlevel label {
+    font-size: 30px;
+    gap: 1rem;
+    padding-bottom: 20px;
+    padding-top: 0%;
+  }
+
+  .foto {
+    width: 800px;
+  }
+
+}
+
+/***** responsive mobile, tablet and etc ******/
+
+@media (max-width: 480px) {
+  .container-bar {
+     width: 400px;
+     margin-bottom: 20px;
+  }
+  
+  .container-bar span {
+    font-size: 25px;
+  }
+  .container-content {
+     margin: auto;
+     width: 400px;
+     -moz-border-radius: 20px; 
+	 -webkit-border-radius: 20px; 
+	 border-top: 5px solid #2288dd; 
+	 border-radius: 10px;
+     padding: 10px;
+  }
+  
+  .container-content img {
+     width: 30%;
+     margin-bottom: 10px;
+     animation-name: fade;
+     animation-duration: 2s;
+  }
+  
+  .container-content h1 {
+    padding-left: 25px;
+    font-size: 25px;
+    animation-name: slide;
+    animation-duration: 2s;
+  }
+  
+  .container-content h4 {
+  	
+    font-size: 10px;
+    width: 80px;
+    border-radius: 20px;
+    margin-left: 25px;
+    
+  }
+
+  .container-content a { 
+    font-weight: 700;
+    text-decoration: none;
+  } 
+  
+  .container-content p {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-name: slide_p;
+    animation-duration: 1s;
+  }
+  
+  .container-contentlevel {
+    width: 400px;
+  }
+
+  .container-contentlevel fieldset h1 {
+    font-size: 20px;
+    padding-left: 35px;
+    padding-top: 20px;
+  }
+  
+  .container-contentlevel progress {
+    block-size: 1.3em;
+    width: 100px;
+  }
+
+  .container-contentlevel label {
+    font-size: 15px;
+    gap: 1rem;
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+
+  .foto {
+    width: 400px;
+  }
+
+  .foto h1 {
+    padding-left: 25px;
+    font-size: 20px;
+  }
+
+  .foto h4 {
+    font-size: 15px;
+  }
+
+  .foto p {
+    font-size: 15px;
+    padding-left: 35px;
+    padding-left: 35px;
+  }
+
+  .foto img {
+    width: 200px;
+  }
+
+}
+
+@keyframes fade {
+   
+   0% {
+      opacity: 0%;
+   }
+   
+   100% {
+      opacity: 100%;
+   }
+}
+
+@keyframes slide_p {
+   
+   0% {
+      opacity: 0%;
+      margin-top: -5px;
+   }
+   
+   100% {
+      opacity: 100%;
+      margin-top: 0px;
+   }
+}
+
+
